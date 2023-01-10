@@ -1,0 +1,55 @@
+li {
+  float: left;
+
+  padding: 10px 20px 10px 20px;
+  height: 40px;
+  font-size: 12pt;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+}
+
+#btnSobre {
+  float: right;
+
+  height: 40px;
+  width: 100px;
+  border: 1px solid;
+  padding: 8px 16px;
+  vertical-align: middle;
+  background: #2d888f;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: mediumturquoise;
+}
+
+li a:hover:not(.active) {
+  background-color: mediumturquoise;
+  color: white;
+}

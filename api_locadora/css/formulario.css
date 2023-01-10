@@ -1,0 +1,67 @@
+
+.form-cad1 {
+    margin: 80 auto;
+    width: 300px;
+    padding: 1em;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+}
+
+.form-cad1 div{
+    margin-top: 3px;
+}
+
+.form-cad1 div input{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-right: 30px;
+    height: 40px;
+    font-size: 12pt;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+	vertical-align: middle; 
+}
+
+.form-cad2 button{
+	
+	float: center;
+    margin-top: 20px;
+    height: 40px;
+    width:100px;
+    border:1px solid; 
+	padding: 11px 21px; 
+	vertical-align: middle; 
+	background:#2D888F; 
+	color:white;
+	border-radius:6px; 
+	font-size: 16px; 
+	font-family:helvetica, serif;text-decoration:none;
+}
+
+.form-cad3 button{
+ 
+	float: right;
+    margin-top: 20px;
+    height: 40px;
+    width:100px;
+    border:1px solid; 
+	padding: 11px 21px; 
+	vertical-align: middle; 
+	background:#2D888F; 
+	color:white;
+	border-radius:6px; 
+	font-size: 16px; 
+	font-family:helvetica, serif;text-decoration:none;
+}
+
+ button:hover{
+    cursor: pointer;
+    background-color: #04B486;
+}
+
+
+
+.erro {
+    border-color: #FA5858;
+}
